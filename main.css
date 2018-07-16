@@ -1,0 +1,18 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+	margin: 0 0;
+}
+.js-container {
+	position: absolute;
+	background-color: yellow;
+	padding: 5px 5px;
+	-webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+}
+#sheet {
+	max-width: 300px;
+	display: inline-block;
+}
